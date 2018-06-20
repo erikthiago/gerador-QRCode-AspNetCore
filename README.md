@@ -1,0 +1,1 @@
+# gerador-QRCode-AspNetCore

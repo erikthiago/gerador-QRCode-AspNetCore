@@ -1,0 +1,8 @@
+﻿
+@{
+    ViewData["Title"] = "GeradorQRCOdeWhatsApp";
+}
+
+<h2>GeradorQRCOdeWhatsApp</h2>
+
+<img src="@String.Format("data:image/png;base64,{0}", Convert.ToBase64String(ViewBag.Message))" height="250" width="250" />
